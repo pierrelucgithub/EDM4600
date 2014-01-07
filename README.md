@@ -1,13 +1,17 @@
 EDM4600
 =======
 
-Explications, code sources et références pour le cours EDM4600 à l'hiver 2014
+Explications, code sources et références pour le cours EDM4600 donné à l'UQAM à l'hiver 2014.
+
+Basé sur le travail de Thomas Ouellet Fredericks : [http://wiki.t-o-f.info/EDM4600/EDM4600](http://wiki.t-o-f.info/EDM4600/EDM4600).
 
 #Cours
 
 Liste des cours et brève description de leur contenu.
 
 ## Cours 1
+
+10 janvier 2014
 
 - Plan de cours
 - Informations sur le cours (site web, *github*, et dépôts des travaux)
@@ -22,9 +26,14 @@ Liste des cours et brève description de leur contenu.
 - Lancer des examples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
 - Identifier des mots-clés et touver leur rôle dans la documentation.
 
+### À préparer  le prochain cours
+
+- xxx
 
 ### Références, documentations et téléchargements
 
-- Installer Processing 2.1 (OSX, Windows ou Linux).
-- Lancer des examples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
-- Identifier des mots-clés et touver leur rôle dans la documentation.
+- [EDM4600 - Cours 1](https://github.com/jmcouillard/EDM4600/tree/master/Cours%201)
+
+# Livres et référence
+
+À venir.
