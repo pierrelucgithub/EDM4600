@@ -26,13 +26,31 @@ Liste des cours et brève description de leur contenu.
 - Lancer des examples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
 - Identifier des mots-clés et touver leur rôle dans la documentation.
 
+### Références, documentations et téléchargements
+
+- [EDM4600 - Cours 1](https://github.com/jmcouillard/EDM4600/tree/master/Cours%201)
+
+## Cours 2
+
+17 janvier 2014
+
+- Retour sur les découvertes suite à l'atelier, les mots-clés et la documentation.
+- Comprendre la *coquille de base*.
+- Les commentaires
+
+### Atelier 
+
+- Créer un sketch à partir d'une page blanche.
+- Utiliser la coquille de base
+
+
 ### À préparer  le prochain cours
 
 - xxx
 
 ### Références, documentations et téléchargements
 
-- [EDM4600 - Cours 1](https://github.com/jmcouillard/EDM4600/tree/master/Cours%201)
+- [EDM4600 - Cours 2](https://github.com/jmcouillard/EDM4600/tree/master/Cours%202)
 
 # Livres et référence
 
