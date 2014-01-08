@@ -36,18 +36,14 @@ Liste des cours et brève description de leur contenu.
 
 - Retour sur les découvertes suite à l'atelier, les mots-clés et la documentation.
 - Comprendre la *coquille de base*.
-- Les commentaires, la console, les variables.
+- Les commentaires, la console, les formes, les couleurs et les variables.
 
 ### Atelier
 
 - Créer un sketch à partir d'une page blanche.
-- Utiliser la coquille de base
-- Dessiner des formes
-
-
-### À préparer  le prochain cours
-
-- xxx
+- Utiliser la coquille de base.
+- Dessiner des formes afin de représenter un paysage.
+- Utiliser des variables.
 
 ### Références, documentations et téléchargements
 
