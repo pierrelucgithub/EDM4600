@@ -22,7 +22,7 @@ Expériences web :
 - [Chez soi](http://chezsoi.onf.ca/#/chezsoi)
 - [Little Sun - Sunlight graffiti](http://lightgraffiti.littlesun.com/)
 
-Pièces de théâtre interactive
+Pièces de théâtre interactives :
 
 - [Dreaming now](https://vimeo.com/81609646)
 
