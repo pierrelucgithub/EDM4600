@@ -149,5 +149,5 @@ L'objectif de l'atelier et de créer un paysage figuratif avec les fonction des 
 3. Utiliser au moins trois variables : 
 	1. une variable de type *Color* pour enregistrer une couleur
 	2. une variable de type *int* pour enregister la position d'un élément
-	3. une variable système telle que *screenX*, *screenY*, *mouseX* ou *mouseY*.
+	3. une variable système telle que *width*, *height*, *mouseX* ou *mouseY*.
 4. Sauf pour les variables de système, les valeurs des variables doivent être attribuer dans la fonction *setup()*.
