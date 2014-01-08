@@ -26,9 +26,7 @@ Le sketchbook est un dossier spécial (créé par Processing s'il n'existe pas d
 
 Source : [http://wiki.t-o-f.info/Processing/Introduction](http://wiki.t-o-f.info/Processing/Introduction)
 
-
-
-## Atelier
+## Concepts
 
 L'objectif de l'atelier et de créer un paysage
 
@@ -37,7 +35,7 @@ L'objectif de l'atelier et de créer un paysage
 Le modèle de base de tout *sketch* Processing:
 
 
-```java
+```
 void setup() {
 
   // La taille de la fenetre.
@@ -66,15 +64,90 @@ Les lignes qui débutent par «//» sont des **commentaires**, c'est-à-dire des
 
 ### 2 - Les formes
 
-La façon la plus simple d'interagir avec votre 
+La façon la plus simple d'interagir avec un programme, c'est de lui demander d'afficher un éléments graphique.
 
-http://wiki.t-o-f.info/Processing/Formes
+Utilisez les fonction décrite ici pour dessiner des formes :
 
-### 3 - La console
+- [point(x,y)](http://processing.org/reference/point_.html)
+- [line(x1,y1,x2,y2)](http://processing.org/reference/line_.html)
+- [rect(x,y,largeur,hauteur)](http://processing.org/reference/rect_.html)
+- [triangle(x1,y1,x2,y2,x3,y3)](http://processing.org/reference/triangle_.html)
+- [quad(x1,y1,x2,y2,x3,y3,x4,y4)](http://processing.org/reference/quad_.html)
+- [ellipse(x,y,largeur,hauteur)](http://processing.org/reference/ellipse_.html)
+- [arc(x,y,largeur,hauteur,début,fin)](http://processing.org/reference/arc_.html)
+- [beginShape()](http://processing.org/reference/beginShape_.html) / [endShape()](http://processing.org/reference/endShape_.html) / [vertex(x, y)](http://processing.org/reference/vertex_.html)
+
+Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Formes](http://wiki.t-o-f.info/Processing/Formes)
+
+### 3 - Les couleurs
+
+La plupart du temps, nous utilisons la notation de couleur RGB, c'est-à-dire que les valeurs qui se succèdent sont la quantité de ROUGE, de VERT, puis de BLEU.
+
+Les valeurs de couleurs sont comprises entre 0 et 255, soit un total de 256 possibilités par couleur.
+
+Avec Processing, il faut définir la couleur d'un élément avec les function *fill()* et *stroke()*.
+
+```
+fill(255, 0, 0);
+stroke(0, 0, 255);
+rect(30, 20, 55, 55);
+```
+
+Toutes les formes qui suiveront prendrons alors ces couleurs.
+
+Nous pouvons enregistrer la valeur d'une couleur dans une variables (voir la section 5)
+
+
+```
+// Définir une variable 'c' de type 'color'
+color c; 
+
+// Attibuer une valeur à 'c'
+c = color(50, 55, 100);
+
+// Dessiner un carré avec la valeur de 'c' comme couleur de remplissage
+fill(c);
+rect(30, 20, 55, 55);
+
+```
+
+Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Couleurs
+](http://wiki.t-o-f.info/Processing/Couleurs) et ici [processing.org](http://processing.org/reference/fill_.html)
+
+### 4 - La console
+
+La console est utilisé pour afficher des messages de votre choix, on lire les messages d'erreurs retournés.
 
 ![La console](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cours2%20-%20console.png)
 
-### 4 - Les variables
+### 5 - Les variables
 
-http://wiki.t-o-f.info/Processing/Formes
+Lorsque vous créez des variables, n'oubliez pas:
 
+- de respecter la convention des majuscules,
+- de leur donner un nom descriptif,
+- et de leur associer un type approprié.
+
+La création d'une variable se fait en deux étapes: sa déclaration et ensuite son assignation. Ces deux étapes peuvent s'effectuer simultanément. Sinon l'assignation peut être effectuée après la déclaration.
+
+Le signe égal (=) permet d'assigner une valeur à une variable.
+
+```
+int count = 50; //Declaration et assignation
+int count; // Declaration de la variable
+count = 50; // Assignation de sa valeur
+```
+
+Source (et plus d'informations) : [http://wiki.t-o-f.info/Processing/Variable](http://wiki.t-o-f.info/Processing/Variable)
+
+## Atelier
+
+L'objectif de l'atelier et de créer un paysage figuratif avec les fonction des dessins
+
+1. Commencer avec la coquille de base.
+2. Ajouter des formes pour créer un paysage dans la fonction *draw()*.
+3. Utiliser au moins trois variables : 
+	1. une variable de type *Color* pour enregistrer une couleur
+	2. une variable de type *int* pour enregister la position d'un élément
+	3. une variable système telle que *screenX*, *screenY*, *mouseX* ou *mouseY*.
+4. Sauf pour les variables de système, les valeurs des variables doivent être attribuer dans la fonction *setup()*.
