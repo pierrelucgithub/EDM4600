@@ -5,10 +5,6 @@ Références, documentations et téléchargements pour le cours 1.
 
 Le cours a lieu le 10 janvier 2014.
 
-## Définitions
-
-http://wiki.t-o-f.info/Processing/Introduction
-
 ## Atelier
 
 L'objectif de l'atelier et de se familiariser avec *Processing* en naviguant les exemples, en y apportant quelques modifications aléatoires et en accédant à la documentation
