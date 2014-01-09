@@ -37,6 +37,7 @@ Liste des cours et brève description de leur contenu.
 - Retour sur les découvertes suite à l'atelier, les mots-clés et la documentation.
 - Comprendre la *coquille de base*.
 - Les commentaires, la console, les formes, les couleurs et les variables.
+- Chaînes de caractères
 
 ### Atelier
 
@@ -48,6 +49,27 @@ Liste des cours et brève description de leur contenu.
 ### Références, documentations et téléchargements
 
 - [EDM4600 - Cours 2](https://github.com/jmcouillard/EDM4600/tree/master/Cours%202)
+
+## Cours 3
+
+24 janvier 2014
+
+- Transformations
+- Boucles
+- Tableaux
+
+### Atelier
+
+- xxx
+
+
+### À préparer  le prochain cours
+
+- xxx
+
+### Références, documentations et téléchargements
+
+- [EDM4600 - Cours 3](https://github.com/jmcouillard/EDM4600/tree/master/Cours%203)
 
 # Livres et référence
 

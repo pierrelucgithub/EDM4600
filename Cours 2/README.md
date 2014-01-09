@@ -5,7 +5,7 @@ Références, documentations et téléchargements pour le cours 2.
 
 Le cours a lieu le 17 janvier 2014.
 
-## Définitions
+## Définitions de base
 
 ### Le sketch
 
@@ -27,8 +27,6 @@ Le sketchbook est un dossier spécial (créé par Processing s'il n'existe pas d
 Source : [http://wiki.t-o-f.info/Processing/Introduction](http://wiki.t-o-f.info/Processing/Introduction)
 
 ## Concepts
-
-L'objectif de l'atelier et de créer un paysage
 
 ### 1 - Coquille de base
 
@@ -61,8 +59,18 @@ Les lignes qui débutent par «//» sont des **commentaires**, c'est-à-dire des
 
 - Le bloc de code encapsulé par la fonction **setup()** ne s'exécute qu'une seule fois au démarrage du programme;
 - Le bloc **draw()** est répété jusqu'à la terminaison du programme.
+ 
+### 2 - Les coordoonées
 
-### 2 - Les formes
+Un point deux-dimensionnel (2D) est composé d'une valeur x et y.
+
+En programmation, le point supérieur gauche est toujours à (0,0), c'est-à-dire que sa valeur X est 0 et sa valeur Y est zéro.
+
+![](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cours2%20-%20coord.jpg)
+
+La valeur de X augmente lorsque nous allons vers la gauche, et la valeur de Y augmente lorsque nous allons vers le bas.
+
+### 3 - Les formes
 
 La façon la plus simple d'interagir avec un programme, c'est de lui demander d'afficher un éléments graphique.
 
@@ -79,7 +87,7 @@ Utilisez les fonction décrite ici pour dessiner des formes :
 
 Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Formes](http://wiki.t-o-f.info/Processing/Formes)
 
-### 3 - Les couleurs
+### 4 - Les couleurs
 
 La plupart du temps, nous utilisons la notation de couleur RGB, c'est-à-dire que les valeurs qui se succèdent sont la quantité de ROUGE, de VERT, puis de BLEU.
 
@@ -95,7 +103,7 @@ rect(30, 20, 55, 55);
 
 Toutes les formes qui suiveront prendrons alors ces couleurs.
 
-Nous pouvons enregistrer la valeur d'une couleur dans une variables (voir la section 5)
+Nous pouvons enregistrer la valeur d'une couleur dans une variables (voir la section 6)
 
 
 ```
@@ -114,13 +122,19 @@ rect(30, 20, 55, 55);
 Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Couleurs
 ](http://wiki.t-o-f.info/Processing/Couleurs) et ici [processing.org](http://processing.org/reference/fill_.html)
 
-### 4 - La console
+### 5 - La console
 
 La console est utilisé pour afficher des messages de votre choix, on lire les messages d'erreurs retournés.
 
 ![La console](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cours2%20-%20console.png)
 
-### 5 - Les variables
+Vous pouvez afficher des éléments dans la cosole avec la fonction *println* :
+
+```
+println("Hello World");
+```
+
+### 6 - Les variables
 
 Lorsque vous créez des variables, n'oubliez pas:
 
@@ -133,12 +147,31 @@ La création d'une variable se fait en deux étapes: sa déclaration et ensuite 
 Le signe égal (=) permet d'assigner une valeur à une variable.
 
 ```
-int count = 50; //Declaration et assignation
-int count; // Declaration de la variable
-count = 50; // Assignation de sa valeur
+// Déclaration et assignation dans une seule ligne
+int count = 50;
+
+// Déclaration et assignation en deux temps
+int count;
+count = 50;
 ```
 
 Source (et plus d'informations) : [http://wiki.t-o-f.info/Processing/Variable](http://wiki.t-o-f.info/Processing/Variable)
+
+#### Les types de variables de base
+
+- int : abbréviention de *integer*, ce sont des nombres entiers.
+- float : ce sont des nombres à virgules, offrant plus de précision.
+- boolean : pouvant prendre la valeur de *true* ou *false*, on les appelle binaires, 
+- String : un chaîne de caractères (une lettre, un mot, un phrase, etc.)
+- color : représentation d'une couleur (*Processing* seulement)
+
+#### String 
+
+Il faut noter que le texte en programmation est utilisé pour nommer les variables. Pour indiquer que nous parlons de la valeur d'une chaîne de caractères, nous devons la mettre entre guillemets.
+
+```
+String maVariable = "mon valeur de chaîne de caractères";
+```
 
 ## Atelier
 
