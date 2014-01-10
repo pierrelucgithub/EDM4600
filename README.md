@@ -3,6 +3,8 @@ EDM4600
 
 Explications, code sources et références pour le cours EDM4600 donné à l'UQAM à l'hiver 2014.
 
+Mon courriel : couillard.jean_maxime@uqam.ca
+
 Basé sur le travail de Thomas Ouellet Fredericks : [http://wiki.t-o-f.info/EDM4600/EDM4600](http://wiki.t-o-f.info/EDM4600/EDM4600).
 
 # Travaux
@@ -21,7 +23,7 @@ Liste des cours et brève description de leur contenu.
 
 - Plan de cours
 - Informations sur le cours (site web, *github*, et dépôts des travaux)
-- Collecte des fiches d'introduction
+- Présentation du professeur et des étudiants, et courriels 
 - Présentation des possibilités offertes par la programmation dite *créative*.
 - Présentation du language et de l'IDE (Integrated Development Environement) *Processing*
 - Introduction au concept de documentation en programmation.
