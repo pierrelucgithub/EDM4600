@@ -104,3 +104,4 @@ L'objectif de l'atelier et de créer une images avec des tableaux et des transfo
 3. Utiliser des tableaux pour enregistrer les positions des formes.
 4. Utiliser des boucles pour dessiner des groupes de formes, et des transformation pour altérerer les éléments du groupe.
 
+Il va y avoir des erreurs, affichée en rouge dans la console lorsque vous vous tromper. Lisez ces erreurs. N'hésitez pas à utiliser 

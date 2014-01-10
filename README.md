@@ -60,12 +60,7 @@ Liste des cours et brève description de leur contenu.
 
 ### Atelier
 
-- xxx
-
-
-### À préparer  le prochain cours
-
-- xxx
+- Créer une images à l'aide de tableaux et des transformations. Il faudra donc y aller avec des groupes : champs de fleurs, galaxies, grappe de raisins, etc.
 
 ### Références, documentations et téléchargements
 
