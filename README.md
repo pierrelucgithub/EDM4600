@@ -5,6 +5,10 @@ Explications, code sources et références pour le cours EDM4600 donné à l'UQA
 
 Basé sur le travail de Thomas Ouellet Fredericks : [http://wiki.t-o-f.info/EDM4600/EDM4600](http://wiki.t-o-f.info/EDM4600/EDM4600).
 
+# Travaux
+
+Trois travaux seront à remettre au cours de la sessions. [Trouvez la liste des travaux et leur date de remise ici](https://github.com/jmcouillard/EDM4600/blob/master/TRAVAUX.md).
+
 # Cours
 
 Liste des cours et brève description de leur contenu.
