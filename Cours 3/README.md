@@ -63,7 +63,9 @@ Plus d'informations : [http://wiki.t-o-f.info/Processing/Tableau](http://wiki.t-
 
 Le boucles peuvent être utiliser pour répéter une opération un certain nombre de fois.
 
-Par exemple, ce code répéte la même action à trois reprises, comptant de 0 à 2 dans la console :
+#### Boucle *for*
+
+Ce code répéte la même action à trois reprises, comptant de 0 à 2 dans la console :
 
 ```
 for(int i=0; i<3; i++) {
@@ -74,6 +76,20 @@ En regardant l'exemple ci-dessus, on peut voir que 3 éléments séparés par de
 
 - **initialisation** : Here, a variable is declared and initialized for use within the body of the loop. This variable is most often used inside the loop as a counter.
 - **condition** :  condition qui est vérifiée avant chaque exécution de la boucle. La boucle ne s'exécute que si la condition est évaluée true- **incrementation** : instruction a effectuer après chaque exécution de la boucle qui avec la condition, limite le nombre de répétitions de la boucle.
+
+*Pourquoi 0 à 2 (plutôt que 1 à 3)?* : nous utilisons presque toujours des *0-based index*, c'est-à dire des index où l'élément 0 existe. Cela facilite certaines opérations et optimise le code.
+
+#### Boucle *while*
+
+Le boucle *while* s'éxecute  sans cesse, jusqu'à ce que la condition ne soit plus remplie. À l'opposé de *for*, il faut s'occuper soi même de déclarer et d'incrémenter les variables.
+
+```
+int x =0; // initialisation
+while ( x < width ) { // condition
+	line(x,0,x,height); // bloc de code
+	x = x + 3; // incrementation
+}
+```
 Plus d'informations : [http://wiki.t-o-f.info/Processing/Boucle](http://wiki.t-o-f.info/Processing/Boucle)
 
 ### 3 - Les transformations

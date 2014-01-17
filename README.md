@@ -1,7 +1,7 @@
 EDM4600
 =======
 
-Explications, code sources et références pour le cours EDM4600 donné à l'UQAM à l'hiver 2014.
+Explications, code source et références pour le cours EDM4600 donné à l'UQAM à l'hiver 2014.
 
 Mon courriel : couillard.jean_maxime@uqam.ca
 
@@ -9,7 +9,7 @@ Basé sur le travail de Thomas Ouellet Fredericks : [http://wiki.t-o-f.info/EDM4
 
 # Travaux
 
-Trois travaux seront à remettre au cours de la sessions. [Trouvez la liste des travaux et leur date de remise ici](https://github.com/jmcouillard/EDM4600/blob/master/TRAVAUX.md).
+Trois travaux seront à remettre au cours de la session. [Trouvez la liste des travaux et leur date de remise ici](https://github.com/jmcouillard/EDM4600/blob/master/TRAVAUX.md).
 
 # Cours
 
@@ -25,14 +25,14 @@ Liste des cours et brève description de leur contenu.
 - Informations sur le cours (site web, *github*, et dépôts des travaux)
 - Présentation du professeur et des étudiants, et courriels 
 - Présentation des possibilités offertes par la programmation dite *créative*.
-- Présentation du language et de l'IDE (Integrated Development Environement) *Processing*
+- Présentation du langage et de l'IDE (Integrated Development Environement) *Processing*
 - Introduction au concept de documentation en programmation.
 
 ### Atelier (en classe ou à la maison)
 
 - Installer Processing 2.1 (OSX, Windows ou Linux).
-- Lancer des examples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
-- Identifier des mots-clés et touver leur rôle dans la documentation.
+- Lancer des exemples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
+- Identifier des mots-clés et trouver leur rôle dans la documentation.
 
 ### Références, documentations et téléchargements
 
@@ -72,7 +72,7 @@ Vous pouvez commencer votre Travail 1. À remettre le 31 janvier.
 
 ### Atelier
 
-- Créer une images à l'aide de tableaux et des transformations. Il faudra donc y aller avec des groupes : champs de fleurs, galaxies, grappe de raisins, etc.
+- Créer une image à l'aide de tableaux et des transformations. Il faudra donc y aller avec des groupes : champs de fleurs, galaxies, grappe de raisins, etc.
 
 ### Références, documentations et téléchargements
 
@@ -82,13 +82,14 @@ Vous pouvez commencer votre Travail 1. À remettre le 31 janvier.
 
 31 janvier 2014
 
-- Contitions
+- Codtitions
 - Animation de base (frameCount, *cos* et *sin*)
-- Fonctions
+- Modulo
 
 ### Atelier
 
-- à venir
+- Créer une image à l'aide de fonctions qui on des paramètres et des conditions. Par exemple, `drawFinger(1)`, `drawFinger(2)`, etc.
+- Animer des éléments en boucle en utilisant *frameCount* et un modulo.
 
 ### Références, documentations et téléchargements
 
@@ -102,13 +103,14 @@ Remise du travail 1.
 
 7 février 2014
 
-- Retour sur toutes les notions du cours 4
-- Interaction (ENFIN!) avec la souris
-- Modulo
+- Interaction  avec la souris et le clavier
+- Notion d'événement et présentation de quelques modules d'événements
 
 ### Atelier
 
-- à venir
+- Interagir avec le clavier et la souris. A
+- Avoir une *zone interactive* (bouton) qui change un comportement deu *sketch*.
+- Pouvoir utiliser la barre d'espace et une autre touche pour déclancher une action, .
 
 ### Références, documentations et téléchargements
 
@@ -134,7 +136,7 @@ Remise du travail 1.
 21 février 2014
 
 - Assouplissement
-- Fonctions
+- Introduction aux images
 
 ### Atelier
 
