@@ -12,7 +12,7 @@ Dessiner un monstre/personnage :
 - Son aspect visuel doit être créé à partir des fonctions de dessin : line(), point(), rect(), etc.
 - Les fonctions de dessin doivent utiliser les variables x et y du sketch fournit par  l'enseignant. Les valeurs de ces variables doivent correspondre au centre du monstre.
 - Ne pas dessiner d'arrière plan.
-- Une boucle while doit être utilisée pour dessiner un ou plusieurs éléments du monstre (cheveux, pattes, tentacules, etc).
+- Une boucle *while* OU *for* doit être utilisée pour dessiner un ou plusieurs éléments du monstre (cheveux, pattes, tentacules, etc).
 
 **Format de remise :** À définir
 
