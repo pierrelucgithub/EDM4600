@@ -17,7 +17,7 @@ Direction [processing.org](http://processing.org/download/?processing) pour tél
 
 ### 2 - Naviguer les exemples de base
 
-Après avoir installé *Processing*, naviguez dans les exemples et exécuter les.
+Après avoir installé *Processing*, naviguez dans les exemples et exécutez-les.
 
 ![image](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cours1%20-%20examples%201.png)
 
@@ -31,7 +31,7 @@ Essayez de changer certaines valeurs numériques pour voir les changements, ou l
 
 ### 3 - Utiliser la documentation
 
-Les mots colorés sont des **mot-clés** (*reserved keywords*). Ces mots sont soit des mots reliés au langages, et qui ne peuvent pas être utilisé. Apprenez à cibler ces mots dans les exemples, et recherchez les dans la [documentation en ligne](http://processing.org/reference/).
+Les mots colorés sont des **mot-clés** (*reserved keywords*). Ces mots sont soit des mots reliés au langage, et qui ne peuvent pas être utilisés. Apprenez à cibler ces mots dans les exemples, et recherchez les dans la [documentation en ligne](http://processing.org/reference/).
 
 Dans l'exemple *Basic/Brightness*, vous pouvez par exemple cibler ces **mots-clé** :
 

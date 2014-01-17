@@ -57,19 +57,6 @@ monTableau1[2] = 35;
 monTableau1[4] = 55;
 ```
 
-Les tableaux peuvent être multi-dimensionnels :
-
-```
-float[][] monTableau1 = new float[10][10] ;
-```
-
-Dans l'exemple précédent, le tableau contient 100 valeurs (10x10), qui peuvent êtres accédés de la manière suivante :
-
-```
-float[][] monTableau1 = new float[10][10] ;
-monTableau1[5][6] = 9.3;
-```
-
 Plus d'informations : [http://wiki.t-o-f.info/Processing/Tableau](http://wiki.t-o-f.info/Processing/Tableau)
 
 ### 2 - Les boucles
@@ -80,7 +67,7 @@ Par exemple, ce code répéte la même action à trois reprises, comptant de 0 �
 
 ```
 for(int i=0; i<3; i++) {
-	PApplet.println("Je compte " + i);
+	println("Je compte " + i);
 }
 ```
 En regardant l'exemple ci-dessus, on peut voir que 3 éléments séparés par des ";" consituent la boucle :

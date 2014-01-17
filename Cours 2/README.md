@@ -22,7 +22,7 @@ Source : [http://wiki.t-o-f.info/Processing/Introduction](http://wiki.t-o-f.info
 
 ### Le sketchbook
 
-Le sketchbook est un dossier spécial (créé par Processing s'il n'existe pas déjà) dans lequel, par défaut, les sketchs sont sauvés. Il peut être modifié pour n'importe quel autre dossier à partir de l'item preferences du menu File.
+Le sketchbook est un dossier spécial (créé par Processing s'il n'existe pas déjà) dans lequel, par défaut, les sketchs sont sauvés. Il peut être modifié pour n'importe quel autre dossier à partir de l'item `Preferences` du menu `File`.
 
 Source : [http://wiki.t-o-f.info/Processing/Introduction](http://wiki.t-o-f.info/Processing/Introduction)
 
@@ -60,7 +60,7 @@ Les lignes qui débutent par «//» sont des **commentaires**, c'est-à-dire des
 - Le bloc de code encapsulé par la fonction **setup()** ne s'exécute qu'une seule fois au démarrage du programme;
 - Le bloc **draw()** est répété jusqu'à la terminaison du programme.
  
-### 2 - Les coordoonées
+### 2 - Les coordonnées
 
 Un point deux-dimensionnel (2D) est composé d'une valeur x et y.
 
@@ -72,9 +72,9 @@ La valeur de X augmente lorsque nous allons vers la gauche, et la valeur de Y au
 
 ### 3 - Les formes
 
-La façon la plus simple d'interagir avec un programme, c'est de lui demander d'afficher un éléments graphique.
+La façon la plus simple d'interagir avec un programme, c'est de lui demander d'afficher un élément graphique.
 
-Utilisez les fonction décrite ici pour dessiner des formes :
+Utilisez les fonctions décrites ici pour dessiner des formes :
 
 - [point(x,y)](http://processing.org/reference/point_.html)
 - [line(x1,y1,x2,y2)](http://processing.org/reference/line_.html)
@@ -93,7 +93,7 @@ La plupart du temps, nous utilisons la notation de couleur RGB, c'est-à-dire qu
 
 Les valeurs de couleurs sont comprises entre 0 et 255, soit un total de 256 possibilités par couleur.
 
-Avec Processing, il faut définir la couleur d'un élément avec les function *fill()* et *stroke()*.
+Avec Processing, il faut définir la couleur d'un élément avec les fonctions *fill()* et *stroke()*.
 
 ```
 fill(255, 0, 0);
@@ -101,9 +101,9 @@ stroke(0, 0, 255);
 rect(30, 20, 55, 55);
 ```
 
-Toutes les formes qui suiveront prendrons alors ces couleurs.
+Toutes les formes qui suivront prendront alors ces couleurs.
 
-Nous pouvons enregistrer la valeur d'une couleur dans une variables (voir la section 6)
+Nous pouvons enregistrer la valeur d'une couleur dans une variable (voir la section 6)
 
 
 ```
@@ -124,11 +124,11 @@ Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Couleurs
 
 ### 5 - La console
 
-La console est utilisé pour afficher des messages de votre choix, on lire les messages d'erreurs retournés.
+La console est utilisée pour afficher des messages de votre choix, on lire les messages d'erreurs retournés.
 
 ![La console](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cours2%20-%20console.png)
 
-Vous pouvez afficher des éléments dans la cosole avec la fonction *println* :
+Vous pouvez afficher des éléments dans la console avec la fonction *println* :
 
 ```
 println("Hello World");
@@ -173,14 +173,18 @@ Il faut noter que le texte en programmation est utilisé pour nommer les variabl
 String maVariable = "mon valeur de chaîne de caractères";
 ```
 
+### 7 - Les fonctions (aperçu)
+
+Aperçu des fonctions
+
 ## Atelier
 
-L'objectif de l'atelier et de créer un paysage figuratif avec les fonction des dessins
+L'objectif de l'atelier et de créer un paysage figuratif avec les fonctions de dessin.
 
 1. Commencer avec la coquille de base.
 2. Ajouter des formes pour créer un paysage dans la fonction *draw()*.
 3. Utiliser au moins trois variables : 
 	1. une variable de type *Color* pour enregistrer une couleur
 	2. une variable de type *int* pour enregister la position d'un élément
-	3. une variable système telle que *width*, *height*, *mouseX* ou *mouseY*.
-4. Sauf pour les variables de système, les valeurs des variables doivent être attribuer dans la fonction *setup()*.
+	3. une variable système tel que *width*, *height*, *mouseX* ou *mouseY*.
+4. Sauf pour les variables de système, les valeurs des variables doivent être attribuées dans la fonction *setup()*.
