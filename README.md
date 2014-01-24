@@ -76,6 +76,10 @@ Vous pouvez commencer votre Travail 1. À remettre le 31 janvier.
 
 ### Références, documentations et téléchargements
 
+- [Exemple onformative](http://www.onformative.com/work/montblanc-artworks/)
+
+- http://roboboogie.codeclub.org.uk/
+
 - [EDM4600 - Cours 3](https://github.com/jmcouillard/EDM4600/tree/master/Cours%203)
 
 ## Cours 4

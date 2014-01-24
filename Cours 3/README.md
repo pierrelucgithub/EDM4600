@@ -92,9 +92,17 @@ while ( x < width ) { // condition
 ```
 Plus d'informations : [http://wiki.t-o-f.info/Processing/Boucle](http://wiki.t-o-f.info/Processing/Boucle)
 
-### 3 - Les transformations
+### 3 - Les matrices de transformation
 
 Les transformations modifient la localisation des éléments dessinés. L'ordre des transformations est très important.
+
+L'utilisation des matrices de transformation se fait en 3 étapes.
+
+1. Nous déclarons une matrice en utilisant `pushMatrix()`.
+2. Nous appliquons des transformations `rotate`, `translate`, `scale`, etc.
+3. Nous terminons la matrice en utilisant `popMatrix()`. 
+
+Les matrices peuvent aussi être imbriqués.
 
 Tout est dit ici : [http://wiki.t-o-f.info/Processing/Transformation](http://wiki.t-o-f.info/Processing/Transformation)
 
