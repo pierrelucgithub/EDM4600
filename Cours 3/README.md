@@ -106,6 +106,14 @@ Les matrices peuvent aussi être imbriqués.
 
 Tout est dit ici : [http://wiki.t-o-f.info/Processing/Transformation](http://wiki.t-o-f.info/Processing/Transformation)
 
+
+### 4 - Fonction *alétatoire*
+
+`random()` retourne un nombre aléatoire entre 0 et 1.
+
+
+`random(1,100)` retourne un nombre aléatoire entre 1 et 100, donc nous lui donnons une valeur maximum et minimum.
+
 ## Atelier
 
 L'objectif de l'atelier et de créer une images avec des tableaux et des transformations. Il faudra donc y aller avec des *groupes* : champs de fleurs, galaxies, grappe de raisins, etc. Épatez-moi!
