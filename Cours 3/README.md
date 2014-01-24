@@ -13,9 +13,7 @@ Un tableau, plus communément appelé *array* en programmation, est une série d
 
 ### Une boucle
 
-Un tableau, plus communément appelé *array* en programmation, est une série de valeur du même type, stocké dans une seule variable. Les tablaux sont particulièrement utiles pour les boucles itératives (*for*).
-
-Plus d'informations : [http://wiki.t-o-f.info/Processing/Tableau](http://wiki.t-o-f.info/Processing/Tableau)
+Une boucle permet d'effectuer une action pour un nombre défini de fois, ou sur un nombre défini d'objet.
 
 ## Concepts
 
@@ -123,4 +121,4 @@ L'objectif de l'atelier et de créer une images avec des tableaux et des transfo
 3. Utiliser des tableaux pour enregistrer les positions des formes.
 4. Utiliser des boucles pour dessiner des groupes de formes, et des transformation pour altérerer les éléments du groupe.
 
-Il va y avoir des erreurs, affichée en rouge dans la console lorsque vous vous tromper. Lisez ces erreurs. N'hésitez pas à utiliser 
+Il va y avoir des erreurs, affichée en rouge dans la console lorsque vous vous tromper. Lisezàces erreurs. N'hésitez pas à utiliser 
