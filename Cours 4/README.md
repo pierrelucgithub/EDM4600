@@ -42,7 +42,7 @@ Plus d'information ici : [http://wiki.t-o-f.info/Processing/Condition](http://wi
 
 ### 2 - Animation de base (frameCount, cos et sin)
 
-#### framcount
+#### frameCount
 
 Le total de frames rendus depuis le lancement du programme. Plus de détails ici : [processing.org](http://processing.org/reference/frameCount.html).
 
