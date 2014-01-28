@@ -1,4 +1,4 @@
-EDM4600 - Tavaux
+EDM4600 - Travaux
 =======
 
 Listes de travaux à remettre (excluant les exercices en classe).
