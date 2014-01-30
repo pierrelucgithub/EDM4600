@@ -136,7 +136,7 @@ println("Hello World");
 
 ### 6 - Les variables
 
-Lorsq/Users/jmcouillard/svn-git/node-webkit/tests/manual_tests/windowue vous créez des variables, n'oubliez pas:
+Lorsque vous créez des variables, n'oubliez pas:
 
 - de respecter la convention des majuscules,
 - de leur donner un nom descriptif,

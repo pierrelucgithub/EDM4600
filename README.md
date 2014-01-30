@@ -28,12 +28,6 @@ Liste des cours et brève description de leur contenu.
 - Présentation du langage et de l'IDE (Integrated Development Environement) *Processing*
 - Introduction au concept de documentation en programmation.
 
-### Atelier (en classe ou à la maison)
-
-- Installer Processing 2.1 (OSX, Windows ou Linux).
-- Lancer des exemples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
-- Identifier des mots-clés et trouver leur rôle dans la documentation.
-
 ### Références, documentations et téléchargements
 
 - [EDM4600 - Cours 1](https://github.com/jmcouillard/EDM4600/tree/master/Cours%201)
@@ -46,13 +40,6 @@ Liste des cours et brève description de leur contenu.
 - Comprendre la *coquille de base*.
 - Les commentaires, la console, les formes, les couleurs et les variables.
 - Chaînes de caractères
-
-### Atelier
-
-- Créer un sketch à partir d'une page blanche.
-- Utiliser la coquille de base.
-- Dessiner des formes afin de représenter un paysage.
-- Utiliser des variables.
 
 ### Références, documentations et téléchargements
 
@@ -70,15 +57,7 @@ Vous pouvez commencer votre Travail 1. À remettre le 31 janvier.
 - Boucles
 - Tableaux
 
-### Atelier
-
-- Créer une image à l'aide de tableaux et des transformations. Il faudra donc y aller avec des groupes : champs de fleurs, galaxies, grappe de raisins, etc.
-
 ### Références, documentations et téléchargements
-
-- [Exemple onformative](http://www.onformative.com/work/montblanc-artworks/)
-
-- http://roboboogie.codeclub.org.uk/
 
 - [EDM4600 - Cours 3](https://github.com/jmcouillard/EDM4600/tree/master/Cours%203)
 
@@ -89,11 +68,6 @@ Vous pouvez commencer votre Travail 1. À remettre le 31 janvier.
 - Codtitions
 - Animation de base (frameCount, *cos* et *sin*)
 - Modulo
-
-### Atelier
-
-- Créer une image à l'aide de fonctions qui on des paramètres et des conditions. Par exemple, `drawFinger(1)`, `drawFinger(2)`, etc.
-- Animer des éléments en boucle en utilisant *frameCount* et un modulo.
 
 ### Références, documentations et téléchargements
 
@@ -109,12 +83,6 @@ Remise du travail 1.
 
 - Interaction  avec la souris et le clavier
 - Notion d'événement et présentation de quelques modules d'événements
-
-### Atelier
-
-- Interagir avec le clavier et la souris. A
-- Avoir une *zone interactive* (bouton) qui change un comportement deu *sketch*.
-- Pouvoir utiliser la barre d'espace et une autre touche pour déclancher une action, .
 
 ### Références, documentations et téléchargements
 
@@ -163,7 +131,7 @@ Remise du travail 1.
 - Retour examen 1
 - Images
 - Tableau d'images
-- Animations d'images (*sprites sheet*)
+- Introduction aux animations d'images (*sprites sheet*)
 
 ### Atelier
 

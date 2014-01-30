@@ -50,3 +50,9 @@ En cliquant sur le **mot-clé**, vous accédez à la définition de ce mot:
 
 
 Source : [http://processing.org/reference/rect_.html](http://processing.org/reference/rect_.html)
+
+## Atelier (en classe ou à la maison)
+
+- Installer Processing 2.1 (OSX, Windows ou Linux).
+- Lancer des exemples de base. Lire. Observer. Changer des valeurs. Se tromper. Tout faire exploser. 
+- Identifier des mots-clés et trouver leur rôle dans la documentation.
