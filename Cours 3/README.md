@@ -72,7 +72,7 @@ for(int i=0; i<3; i++) {
 ```
 En regardant l'exemple ci-dessus, on peut voir que 3 éléments séparés par des ";" consituent la boucle :
 
-- **initialisation** : Here, a variable is declared and initialized for use within the body of the loop. This variable is most often used inside the loop as a counter.
+- **initialisation** : Ici, une variable est déclarée et initialisée avec une valeur. Elle sera utilisé dans la boucle for à titre de compteur.
 - **condition** :  condition qui est vérifiée avant chaque exécution de la boucle. La boucle ne s'exécute que si la condition est évaluée true- **incrementation** : instruction a effectuer après chaque exécution de la boucle qui avec la condition, limite le nombre de répétitions de la boucle.
 
 *Pourquoi 0 à 2 (plutôt que 1 à 3)?* : nous utilisons presque toujours des *0-based index*, c'est-à dire des index où l'élément 0 existe. Cela facilite certaines opérations et optimise le code.
@@ -121,4 +121,4 @@ L'objectif de l'atelier et de créer une images avec des tableaux et des transfo
 3. Utiliser des tableaux pour enregistrer les positions des formes.
 4. Utiliser des boucles pour dessiner des groupes de formes, et des transformation pour altérerer les éléments du groupe.
 
-Il va y avoir des erreurs, affichée en rouge dans la console lorsque vous vous tromper. Lisezàces erreurs. N'hésitez pas à utiliser 
+Il va y avoir des erreurs, affichée en rouge dans la console lorsque vous vous tromper. Lisez ces erreurs. N'hésitez pas à utiliser 
