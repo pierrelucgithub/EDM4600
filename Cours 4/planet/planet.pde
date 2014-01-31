@@ -1,4 +1,3 @@
-
 float positionX = 0;
 float positionY = 0;
 float factor = 0;
@@ -58,9 +57,3 @@ void drawEnsemble(float offsetX, float offsetY, float scale, float random, PImag
 
   popMatrix();
 }
-
-
-
-
-
-
