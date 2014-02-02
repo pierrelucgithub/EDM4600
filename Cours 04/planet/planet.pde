@@ -10,6 +10,8 @@ float randoms[] = new float[2];
 
 void setup() {
   size(960, 540, P3D);
+  
+  hint(ENABLE_DEPTH_TEST);
 
   img1 = loadImage("planet.png");
   img2 = loadImage("comet.png");
@@ -40,6 +42,18 @@ void drawEnsemble(float offsetX, float offsetY, float scale, float random, PImag
   imageMode(CENTER);  
   pushMatrix();
   translate(width/2+offsetX, height/2+offsetY); 
+
+     
+  //PGL pgl = beginPGL();
+  
+//clearZBuffer();
+  //pgl.enable(PGL.DEPTH_TEST);
+  //pgl.enable(PGL.ALPHA_TEST);
+  
+ // hint(DISABLE_DEPTH_TEST);
+//hint(ENABLE_DEPTH_SORT);
+  
+  // glEnable ( GL_ALPHA_TEST ) ;
 
   // Dessins de planète
   pushMatrix();
